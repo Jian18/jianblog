@@ -1,0 +1,77 @@
+---
+---
+
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&family=Inter&display=swap");
+$background: "#EEF4D4";
+$green: "#1C2826";
+$red: "#D64550";
+$typography: Epilogue;
+// font-family: "Epilogue", sans-serif;
+// font-family: "Inter", sans-serif;
+
+body {
+  background-color: #fff8e8;
+  color: #1c2826;
+
+  font-family: $typography, Arial;
+  font-weight: 400;
+  line-height: 1.5;
+  max-width: 780px;
+  margin: 80px auto;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: 700;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  a {
+    margin-left: 10px;
+  }
+}
+
+.logo {
+  text-decoration: none;
+  color: #1c2826;
+  margin: 0;
+  font-weight: 700;
+}
+
+section {
+  margin-top: 40px;
+}
+
+nav a,
+p a {
+  color: #1c2826;
+  text-decoration: none;
+  border-bottom: 3px solid #d52941;
+}
+
+p.read-more {
+  font-weight: 700;
+}
+
+div.blog-posts {
+  max-width: 540px;
+
+  a {
+    text-decoration: none;
+    color: #1c2826;
+    display: block;
+    margin: 0 0 40px 0;
+  }
+}
